@@ -13,7 +13,7 @@ const Hero = () => {
             🚀 crafting Digital Experiences That Matter 🚀
           </p>
           <div className="CallToAction">
-            <a href="" download="my_file.pdf">
+            <a href="/img/AhmedYasserCV.pdf" download="AhmedYasserCV.pdf">
               Download CV
             </a>
             <p>
