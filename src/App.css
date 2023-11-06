@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+
+:root{
+    /* Variables */
+    background-color: var(--gradient-cont);
+    --gradient-cont: #111111;
+    --color-bg2: rgb(0, 17, 82);
+    --color1: 203,80,112;
+    --color2: 186,74,102;
+    --color3: 99,106,160;
+    --color4: 59,60,86;
+    --color5: 139,98,145;
+    --color-interactive: 115,103,154;
+    --circle-size: 100%;
+    --blending: hard-light;
+
+    --font-main:#F5EDED ;
+    --grid: #1e1e20;
+
+    --bloody-red: #D72323;
+
+}
+
+
+

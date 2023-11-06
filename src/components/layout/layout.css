@@ -1,0 +1,19 @@
+.MouseDot{
+    width: 5px;
+    height: 5px;
+    background-color: var(--font-main);
+}
+
+.MouseOutLine{
+    width: 25px ;
+    height: 25px;
+    border: 2px solid var(--font-main);
+}
+
+.MouseDot,.MouseOutLine{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+

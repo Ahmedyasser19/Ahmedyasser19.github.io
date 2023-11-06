@@ -1,0 +1,109 @@
+.ProjectsContainer{
+    color: var(--font-main);
+    margin: 0 5vw;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectTitle{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--bloody-red);
+    z-index: 0;
+            transition: 0.3s all ease-in-out;
+    
+    
+}
+
+.ProjectTitle h2,span{
+    font-size: 0.8rem;
+}
+
+.JobDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.JobDetails span{
+    font-size: 0.8rem;
+   
+    opacity: 0.8;
+
+}
+
+
+.ProjectDesc{
+    opacity: 0.8;
+    margin-bottom: 12px;
+    text-align: left;
+    cursor: none;
+
+}
+
+.JobDesList li{
+    list-style-type:square;
+    margin: 0.1rem 0;
+}
+.ProjectTech{
+    cursor: none;
+    opacity: 0.6;
+}
+
+.Tech{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+    flex-wrap: wrap;
+    
+}
+
+.Tech li{
+        transition: 0.3s all ease-in-out;
+}
+
+.ProjectTitle:hover {
+    color: var(--bloody-red);
+}
+.Tech li{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.3rem;
+    padding: 5px;
+}
+
+.BackButton{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.BackButton img{
+filter: invert(1);}
+
+.ProjectTech a {
+    color: var(--bloody-red);
+
+}
+
+.ProjectImage{
+    position: absolute;
+
+    width: 80vw;
+    left: 10vw;
+    height: 25vh;
+    opacity: 0.1;
+    top: 10vh;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    
+}

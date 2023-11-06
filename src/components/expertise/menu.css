@@ -1,0 +1,160 @@
+.ListElementHead {
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.4rem 0;
+}
+
+.ListElement {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.4rem 0;
+    cursor: none;
+
+}
+
+.ListElement:hover{
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 0.6rem;
+}
+
+
+
+.ListElement li {
+    flex: 1;
+      
+}
+
+.ListElement p {
+    transition: translate 0.1s linear;
+
+}
+
+
+.ListElement p:hover {
+    translate: 2rem 0;
+}
+
+.ListElement li::before {
+    position: absolute;
+    content: '→';
+    left: -8%;
+    transition: left 0.1s linear;
+
+}
+.ListElement span{
+    opacity: 0.8;
+}
+
+.ListElement li:hover::before {
+    left: 0%;
+
+}
+
+.ListElementHead li {
+    text-align: center;
+    flex: 1;
+}
+
+
+.PicContainer {
+
+    position: relative;
+    border: none;
+    border-style: none;
+    right: 4%;
+    margin-top: 20vh;
+    height: 70vh;
+    background: no-repeat;
+
+
+}
+
+.PicContainer img {
+    border: 1px solid rgba(0, 0, 0, 0);
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    border-radius: 6%;
+    
+}
+
+.ShowOff {
+    color: var(--font-main);
+    height: 90vh;
+    position: relative;
+    display: flex;
+
+    margin-right: 3.8vh;
+}
+
+.PicContainer {
+    flex: 1.5;
+}
+
+.MenuContainer {
+    flex: 1;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Add this to make it scrollable */
+}
+
+
+.MenuContainer span {
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+.MenuHead {
+    display: flex;
+    height: 70vh;
+    margin-top: 20vh;
+    flex-direction: column;
+    background-color: rgba(17, 17, 17, 0.05);
+    border-radius: 0.5rem;
+    flex: 1;
+     
+
+}
+
+
+.MenuHead p {
+    opacity: 0.9;
+}
+
+.MenuHeadd {
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.95;
+
+}
+
+
+@media screen and (max-width:962px) {
+    .PicContainer {
+        display: none;
+    }
+
+    .MenuHeadd {
+        justify-content: flex-start;
+        font-size: 3rem;
+    }
+
+    .MenuHead {
+        padding: 0 10vw;
+    }
+
+    .MenuContainer ul {
+        font-size: 1.5rem;
+    }
+
+
+}

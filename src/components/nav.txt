@@ -1,0 +1,25 @@
+@media screen and (max-width:962px ){
+    .PicContainer{
+        display: none;
+    }
+
+    .MenuHeadd{
+        justify-content: flex-start;
+        font-size: 3rem;
+    }
+
+    .MenuHead{
+padding: 0 10vw;    
+    }
+
+    .MenuContainer ul{
+        font-size: 1.5rem;
+    }
+        .Nav {
+            display: none;
+        }
+  menu {
+      display: flex;
+  }
+
+}

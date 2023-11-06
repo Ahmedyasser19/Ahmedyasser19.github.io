@@ -1,0 +1,55 @@
+.HeroContainer {
+    height: 90vh;
+    margin: 0 5vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--font-main);
+    
+
+}
+
+.HeroMain{
+    margin-bottom: 15vh;
+}
+
+.HeroName {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: 3s ease-in-out;
+    letter-spacing: 0.5rem;
+    font-weight: 500rem;
+
+}
+
+.HeroName:hover {
+    color: var(--bloody-red);
+    letter-spacing: 0.7rem;
+    opacity: 0.8;
+}
+
+.HeroSub {
+    font-size: 1rem;
+
+}
+
+.HeroSub2 {
+    font-size: 0.7rem;
+    opacity: 0.8;
+
+}
+.CallToAction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--bloody-red);
+    margin-top: 1rem;
+}
+
+.CallToAction:hover *{
+        cursor: pointer;
+        border-radius: 0.3rem;
+}
