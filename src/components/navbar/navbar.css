@@ -1,125 +1,115 @@
-
 .NavBar {
-    position: relative;
-    width: 90vw;
-    margin: 0 5vw;
-    height: 5vh;
-    margin-top: 5vh;
-    display: flex;
-    justify-content: space-between;
-    opacity: 0.8;
-    color: var(--bloody-red);
-    align-items: center;
-    font-size: 16px;
+  position: relative;
+  width: 90vw;
+  margin: 0 5vw;
+  height: 5vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  color: var(--bloody-red);
+  align-items: center;
+  font-size: 16px;
 }
 
 .Logo {
-    letter-spacing: 0.1rem;
-    color: var(--bloody-red);
-    font-size: 1.1rem;
-    opacity: 1;
-    transition: 0.3s;
-
+  letter-spacing: 0.1rem;
+  color: var(--bloody-red);
+  font-size: 1.1rem;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .Logo:hover {
-    color: var(--bloody-red);
-    opacity: 1;
-    filter: brightness(1.7);
-    cursor: pointer;
-
+  color: var(--bloody-red);
+  opacity: 1;
+  filter: brightness(1.7);
+  cursor: pointer;
 }
 
 .Nav {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
-.Nav > *{
-    min-width: fit-content;
+.Nav > * {
+  min-width: fit-content;
 }
 
 .NavNum {
-    color: var(--bloody-red);
-    opacity: 0.7;
-    font-size: 0.5rem;
-    position: absolute;
-    top: 2%
-    
+  color: var(--bloody-red);
+  opacity: 0.7;
+  font-size: 0.5rem;
+  position: absolute;
+  top: 2%;
 }
 
-.Nav> :hover {
-    transition: 0.05s ease-out;
-    opacity: 0.7;
+.Nav > :hover {
+  transition: 0.05s ease-out;
+  opacity: 0.7;
 }
 
 menu {
-    opacity: 0.7;
-    justify-content: flex-end;
+  opacity: 0.7;
+  justify-content: flex-end;
 }
 
-menu:hover{
-    cursor: pointer;
-        opacity: 1;
+menu:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
-.RightMenu{
-    top: 0;
-    left: 0;
-    position: absolute;
-    color: var(--bloody-red);
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(46, 0, 0,1);
-    clip-path: circle(0% at 100vw 0vh);
-    transition: all 0.6s ease-in-out;
-    z-index: 1;
-
+.RightMenu {
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: var(--bloody-red);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 0, 0, 1);
+  clip-path: circle(0% at 100vw 0vh);
+  transition: all 0.6s ease-in-out;
+  z-index: 100;
 }
 
-.RightMenuAnim{
-    clip-path: circle(150% at 0vw 50vh);
+.RightMenuAnim {
+  clip-path: circle(150% at 0vw 50vh);
 }
 
-
-.popUpContainer{
-    display: flex;
-    position: absolute;
-    top: 30vh;
-    justify-content: center;
-    margin: 0 5vw;
-    flex-direction: column;
-    gap: 3rem;
+.popUpContainer {
+  display: flex;
+  position: absolute;
+  top: 30vh;
+  justify-content: center;
+  margin: 0 5vw;
+  flex-direction: column;
+  gap: 3rem;
 }
 
-.popUpContainer *{
-   width: fit-content;
-   font-size: 28px;
-   font-stretch:normal;
-    transition: 0.5s ease-out;
+.popUpContainer * {
+  width: fit-content;
+  font-size: 28px;
+  font-stretch: normal;
+  transition: 0.5s ease-out;
 }
 
-.popUpContainer *:hover{
-    opacity: 0.8;
-        font-stretch:expanded;
-        -webkit-font-stretch: expanded;
-  
+.popUpContainer *:hover {
+  opacity: 0.8;
+  font-stretch: expanded;
+  -webkit-font-stretch: expanded;
 }
 
-
-.MenuPhone{
-    position: absolute;
-    top: 6.2vh;
-    right: 5vw;
-    cursor: pointer;
+.MenuPhone {
+  position: absolute;
+  top: 6.2vh;
+  right: 5vw;
+  cursor: pointer;
 }
 
-
-@media screen and (max-width:960px) {
-    .Nav{
-        display: none;
-    }
+@media screen and (max-width: 960px) {
+  .Nav {
+    display: none;
+  }
 }

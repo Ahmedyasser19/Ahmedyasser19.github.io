@@ -1,19 +1,25 @@
-.MouseDot{
-    width: 5px;
-    height: 5px;
-    background-color: var(--font-main);
+.MouseDot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--font-main);
+  pointer-events: none;
+  transition: 0.5s ease-in-out;
+  z-index: 1000;
 }
 
-.MouseOutLine{
-    width: 25px ;
-    height: 25px;
-    border: 2px solid var(--font-main);
+.MouseOutLine {
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--font-main);
+  pointer-events: none;
+  z-index: 1000;
 }
 
-.MouseDot,.MouseOutLine{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-
+.MouseDot,
+.MouseOutLine {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1000;
+  pointer-events: none;
 }
-
