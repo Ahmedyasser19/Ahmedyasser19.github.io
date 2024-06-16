@@ -1,7 +1,7 @@
 import React from "react";
 import BackButton from "../../../../public/img/BackButton.svg";
 import { useNavigate } from "react-router-dom";
-import Carousel from "../../carousel/carousel";
+import Carousel from "../../carousel/Carousel";
 
 const MovieGallery = () => {
   const navigate = useNavigate();

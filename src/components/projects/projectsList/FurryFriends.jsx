@@ -2,7 +2,7 @@ import React from "react";
 import BackButton from "../../../../public/img/BackButton.svg";
 import { useNavigate } from "react-router-dom";
 import Markdown from "react-markdown";
-import Carousel from "../../carousel/carousel";
+import Carousel from "../../carousel/Carousel";
 
 const FurryFriends = () => {
   const markDownText = ``;
