@@ -42,6 +42,7 @@ const Projects = () => {
   };
 
   const projectsImages = [
+    "/img/scandiweb/scandiweb1.png",
     "/img/furryFriends/FurryFriends.png",
     "/img/parkingSmart/Home.png",
     "/img/Ahmed.png",
