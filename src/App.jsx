@@ -14,6 +14,7 @@ import VrMusic from "./components/projects/projectsList/VrMusic";
 import ContactMe from "./components/contactme/ContactMe";
 import ParkingSmart from "./components/projects/projectsList/ParkingSmart";
 import FurryFriends from "./components/projects/projectsList/FurryFriends";
+import Scandiweb from "./components/projects/projectsList/Scandiweb";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Projects/CovidSafe" element={<CovidSafe />} />
         <Route path="/Projects/ParkingSmart" element={<ParkingSmart />} />
         <Route path="/Projects/FurryFriends" element={<FurryFriends />} />
+        <Route path="/Projects/Scandiweb" element={<Scandiweb />} />
         <Route path="/Experience" element={<ContactMe />} />
         <Route path="*" element={<NotFound />} />
       </Route>

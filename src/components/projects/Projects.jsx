@@ -6,6 +6,7 @@ import "./projects.css";
 
 const Projects = () => {
   const projects = [
+    ["Scandiweb", "Website"],
     ["Furry Friends", "Website"],
     ["Parking Smart", "Website"],
     ["Ahmed", "Website"],
@@ -17,6 +18,7 @@ const Projects = () => {
   ];
 
   const links = [
+    "/projects/Scandiweb",
     "/projects/FurryFriends",
     "/projects/ParkingSmart",
     "/projects/Ahmed",
