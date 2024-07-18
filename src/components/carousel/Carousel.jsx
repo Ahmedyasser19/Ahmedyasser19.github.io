@@ -19,7 +19,7 @@ const Carousel = ({ images, gitRepo }) => {
   }
 
   function openRepo() {
-    window.open(gitRepo, "_blank");
+    if (gitRepo != null) window.open(gitRepo, "_blank");
   }
   return (
     <div className="carouselContainer">

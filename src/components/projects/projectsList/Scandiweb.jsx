@@ -8,8 +8,7 @@ const Scandiweb = () => {
   const markDownText = `
   
   `;
-  const repo =
-    " https://github.com/Ahmedyasser19/CarParkingSystem2024/tree/main";
+  const repo = null;
   const navigate = useNavigate();
   const images = [
     "/img/scandiweb/scandiweb1.png",
@@ -49,9 +48,9 @@ const Scandiweb = () => {
           <li> APOLLO CLIENT AND SERVER</li>
           <li> TAILWIND</li>
         </ul>
-        <a href={repo} target="_blank">
+        {/* <a href={repo} target="_blank">
           Link
-        </a>
+        </a> */}
       </div>
     </div>
   );
